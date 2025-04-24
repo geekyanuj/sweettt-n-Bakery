@@ -1,0 +1,34 @@
+# WordPress Core
+wp-admin/
+wp-includes/
+index.php
+xmlrpc.php
+wp-signup.php
+wp-activate.php
+readme.html
+license.txt
+.htaccess
+wp-config-sample.php
+
+# wp-content
+wp-content/cache/
+wp-content/object-cache.php
+wp-content/upgrade/
+wp-content/languages/
+wp-content/plugins/*/node_modules/
+wp-content/themes/*/node_modules/
+
+# Sensitive files
+wp-config.php
+
+# Uploads (optional, consider separate backup)
+wp-content/uploads/
+
+# Local development environments
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+node_modules/
+package-lock.json
+yarn.lock
